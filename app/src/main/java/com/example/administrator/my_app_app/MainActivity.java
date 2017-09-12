@@ -11,6 +11,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         initData();
+        initAdapter();
+    }
+
+    private void initAdapter() {
+
     }
 
     private void initData() {
